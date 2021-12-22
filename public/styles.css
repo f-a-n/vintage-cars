@@ -79,6 +79,11 @@ footer p {
     padding-bottom: 2em;
 }
 
+h1 {
+    text-align: center;
+    margin-top: 1em;
+}
+
 .container h2 {
     text-align: center;   
 }
