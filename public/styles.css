@@ -52,7 +52,7 @@ main {
     margin: 0 auto;
     width: 90%;
     max-width: 1200px;
-
+    align-items: center;
 }
 
 footer p {
@@ -85,10 +85,16 @@ footer p {
 }
 
 .form-container {
-    display: flex;
-    flex-direction: column;
-    width: 75%;
+    width: 100%;
     margin: auto;
+}
+
+button, label, input, select, textarea {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+textarea {
+    width: 100%;
 }
 
 @media screen and (max-width: 480px) {
@@ -96,4 +102,4 @@ footer p {
     .card {
         width: 100%;
     }
-  }
+}
