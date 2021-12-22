@@ -8,14 +8,26 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    background-color: gray;
+    background-color: #f1f1f1;
     margin: 0;
-    padding: 0px 2.5%;
+    padding: 5px 2.5%;
 }
 
 .nav-right {
@@ -27,12 +39,20 @@ nav a {
     padding: 15px;
     color: black;
     text-decoration: none;   
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav a:hover{
+    color: maroon;
 }
 
 main {
     display: flex;
     flex-direction: column;
-    padding-left: 3%;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+
 }
 
 footer p {
@@ -52,11 +72,11 @@ footer p {
 .cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .card {
-    width: 50%;
-    padding-right: 2.5%;
+    width: 48%;
 }
 
 .card img {
@@ -70,3 +90,10 @@ footer p {
     width: 75%;
     margin: auto;
 }
+
+@media screen and (max-width: 480px) {
+
+    .card {
+        width: 100%;
+    }
+  }
