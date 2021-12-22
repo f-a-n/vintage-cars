@@ -32,7 +32,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -57,7 +57,7 @@ main {
     flex-direction: column;
     margin: 0 auto;
     width: 90%;
-    max-width: 1200px;
+    max-width: 1000px;
     align-items: center;
 }
 
