@@ -75,6 +75,14 @@ footer p {
     justify-content: space-between;
 }
 
+.container {
+    padding-bottom: 2em;
+}
+
+.container h2 {
+    text-align: center;   
+}
+
 .card {
     width: 48%;
 }
