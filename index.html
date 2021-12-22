@@ -28,13 +28,13 @@
 
             <div class="cards">
                 <div class="card">
-                    <h3>Citroen</h3>
-                    <img src="public/citroen.jpg" alt="Citroen truck">
+                    <h3>Alfa</h3>
+                    <img src="public/alfa.jpg" alt="Alfa Romeo Giulia">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus consequatur, obcaecati perferendis ratione consectetur temporibus iste voluptate quisquam, qui, sequi dolorum quam. Molestiae blanditiis sit quidem ipsam officia illo natus?</p>
                 </div>
                 <div class="card">
                     <h3>Citroen</h3>
-                    <img src="public/alfa.jpg" alt="Alfa Romeo">
+                    <img src="public/citroen.jpg" alt="Citroen">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus consequatur, obcaecati perferendis ratione consectetur temporibus iste voluptate quisquam, qui, sequi dolorum quam. Molestiae blanditiis sit quidem ipsam officia illo natus?</p>
                 </div>
                 <div class="card">
@@ -57,6 +57,32 @@
 
         <div class="container" id="enquiries">
             <h2>Enquiries</h2>
+            
+            <div class="form-container">
+                <form action="#">
+                    
+                    <label for="fullname">Full Name</label>
+                    
+                    <input type="text" id="fullName" name="fullName" placeholder="name...">
+                    <br>
+                    <label for="car">Choose a car</label>
+                    <select id="car" name="car">
+                        <option value="alfa">Alfa Romeo</option>
+                        <option value="citroen">Citroën</option>
+                        <option value="jaguar">Jaguar</option>
+                        <option value="porsche">Porsche</option>
+                    </select>
+                    <br>
+                    <label for="comments">Comments</label>
+                    <br>
+                    <textarea id="comments" name="comments" placeholder="Add extra info here.." style="height:200px"></textarea>
+                    <br>
+                    <input type="submit" value="Submit">
+                
+                </form>
+            </div>
+
+            
         </div>
 
         <div class="container" id="contact">

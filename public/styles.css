@@ -59,3 +59,7 @@ footer p {
     height: auto;
 }
 
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
